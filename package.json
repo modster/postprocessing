@@ -1,0 +1,20 @@
+{
+	"name": "postprocessing",
+	"version": "1.0.0",
+	"description": "A postprocessing sandbox",
+	"main": "index.html",
+	"scripts": {
+		"start": "parcel index.html --open",
+		"build": "parcel build index.html"
+	},
+	"dependencies": {
+		"postprocessing": "6.x.x",
+		"spatial-controls": "5.x.x",
+		"three": "0.138.x"
+	},
+	"devDependencies": {
+		"@babel/core": "7.x.x",
+		"@babel/plugin-proposal-class-properties": "7.x.x",
+		"parcel-bundler": "1.x.x"
+	}
+}
